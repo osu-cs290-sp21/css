@@ -1,0 +1,30 @@
+#special-p {
+  width: 128px;
+  height: 256px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.outer-box {
+  /* padding: 16px; */
+  /* padding: 16px 64px; */
+  padding: 16px 64px 32px 0;
+  border: 3px solid slategray;
+  /* border-radius: 50%; */
+  border-radius: 10px;
+  margin: 16px;
+}
+
+#first-box {
+  padding-left: 64px;
+  /* padding-top: 64px;
+  padding-bottom: 64px;
+  padding-right: 64px; */
+}
+
+.inner-box {
+  border: 1px solid dimgray;
+  padding: 8px;
+  display: inline-block;
+  background-color: rgb(128, 128, 0);
+}

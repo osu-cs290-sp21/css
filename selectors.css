@@ -1,0 +1,40 @@
+p {
+  background-color: darkorchid;
+}
+
+div {
+  border: 5px dashed lawngreen;
+}
+
+.excellent-text {
+  color: firebrick;
+  font-size: 20px;
+  background-color: plum;
+}
+
+.big-text {
+  color: lightskyblue;
+  font-size: 48px;
+}
+
+.some-class-that-doesnt-exist {
+  color: dimgray;
+}
+
+#site-title {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+h1.excellent-text {
+  border: 3px solid lightsalmon;
+  border-radius: 10px;
+}
+
+h1, p {
+  font-weight: bold;
+}
+
+.excellent-text .special-span {
+  background-color: linen;
+}
