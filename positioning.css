@@ -7,6 +7,7 @@ p {
 }
 
 .outer {
+  position: relative;
   width: 400px;
   height: 400px;
   margin: 5px;
@@ -30,4 +31,28 @@ p {
 
 .inner.unpositioned {
   background-color: #ababab;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  top: 50px;
+  left: 25px;
+  /* bottom: 50px;
+  right: 25px; */
+}
+
+.absolute {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.fixed {
+  position: fixed;
+  top: 100px;
+  right: 50px;
 }
