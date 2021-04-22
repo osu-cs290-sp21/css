@@ -38,3 +38,23 @@ header h1 {
 .right {
   float: right;
 }
+
+@media (min-width: 640px) || (max-width: 960px) {
+  .navbar {
+    background-color: red;
+  }
+}
+
+@media (max-width: 640px) {
+  .navitem {
+    display: block;
+  }
+
+  .right {
+    float: none;
+  }
+
+  .navbar {
+    background-color: blue;
+  }
+}

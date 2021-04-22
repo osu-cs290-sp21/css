@@ -1,3 +1,29 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+
+a:hover {
+  background-color: khaki;
+}
+
+input:focus {
+  font-size: 48px;
+}
+
+a::after {
+  content: "➚";
+}
+
+.hoverable:hover {
+  background-color: lightcoral;
+}
+
+.hoverable {
+  cursor: pointer;
+}
+
+ul {
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}

@@ -9,6 +9,12 @@ body {
   margin: 5px;
   padding: 10px;
   border: 4px solid black;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .box {
@@ -19,4 +25,12 @@ body {
   margin: 10px 0;
   padding: 10px;
   border: 2px solid black;
+
+  /* flex-basis: 200px;
+  flex-grow: 1; */
+  flex: 1 200px;
+}
+
+.bigger {
+  flex-grow: 6;
 }
